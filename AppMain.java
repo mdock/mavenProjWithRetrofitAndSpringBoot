@@ -32,5 +32,6 @@ public class AppMain {
         System.out.println((helloEndpoint.getHello()).execute().body().string());
         System.out.println(helloEndpoint.getPost("ala", "bbody").execute().code());
         System.out.println(helloEndpoint.getPost("ala", "bbody").request().url().encodedPath());
+	// br1
     }
 }
